@@ -1,0 +1,199 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+    font-family: sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+    min-height: 100vh;
+  }
+  
+  .line {
+
+
+display: none;}
+
+
+.fase1{
+  z-index: 10;
+  padding:30px;
+  max-width: 800px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30%;
+  min-height: 100vh;
+  height: 100%;
+}
+
+
+
+
+
+
+
+.titolo1{
+  opacity: 0;
+  animation: slideIn1 1s forwards;
+}
+
+@keyframes slideIn1 {
+  0% {
+    transform: translatey(0px);
+    opacity: 0;
+  }
+  100% {
+    transform: translatey(30%);
+    opacity: 1;
+  }
+}
+
+
+
+.form-floating{
+  opacity: 0;
+  animation: slideIn1 1s forwards;
+}
+
+@keyframes slideIn1 {
+  0% {
+    transform: translatey(0px);
+    opacity: 0;
+  }
+  100% {
+    transform: translatey(40%);
+    opacity: 1;
+  }
+}
+
+
+#btn{
+  opacity: 0;
+  animation: slideIn3 1.3s forwards;
+}
+
+@keyframes slideIn3 {
+  0% {
+    transform: translatey(0px);
+    opacity: 0;
+  }
+  100% {
+    transform: translatey(50%);
+    opacity: 1;
+  }
+}
+.hide{
+  display: none ;
+}
+
+
+.hide2{
+  display: none !important;
+}
+
+.nonso{
+  display: none;
+  opacity: 0;
+}
+
+
+.nonsoanim{
+  display: block;
+  opacity: 0;
+  animation: slideIn4 2s  forwards;
+}
+
+
+
+
+
+
+@keyframes slideIn4 {
+  0% {
+    font-size: 0%;
+    opacity: 0;
+  }
+  100% {
+    font-size: 250%;
+    opacity: 1;
+  }
+}
+
+.minitext{
+font-size: 18px;
+font-weight: 300;
+}
+
+
+.start{
+  display: block;
+  opacity: none;
+  position: absolute;
+ opacity: 0px;
+  animation: slideIn5 2s  forwards;
+}
+
+
+@keyframes slideIn5 {
+  0% {
+    top:-80% ;
+    opacity: 0;
+  }
+  100% {
+    top:80% ;
+    opacity: 1;
+  }
+}
+
+
+.line{
+  font-weight: 900;
+
+}
+
+.body1 {
+ 
+  animation: gradient 15s ease forwards;
+}
+
+
+.body2 {
+ 
+  animation: gradienttext 5s ease 8s forwards;
+}
+
+
+@keyframes gradient {
+  from {
+    background-color: #ffffff08 ;
+  }
+  to {
+    background-color: #3a3a3a ;
+    
+  }
+}
+
+
+@keyframes gradienttext {
+  0% {
+    color: #000000;
+  }
+
+
+  to {
+    color: #ffffff;
+  }
+}
+
+
+#back{
+  z-index: 3;
+  position: absolute;
+  min-height: 100%;
+  max-width: 100%;
+}
