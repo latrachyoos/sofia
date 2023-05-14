@@ -189,7 +189,7 @@ height: 100%;
 .body1 {
   min-height: 100vh ;
   max-width: 100%;
-  animation: gradient 15s ease forwards;
+  animation: gradient 25s ease forwards;
 }
 
 
@@ -198,7 +198,7 @@ height: 100%;
     background-color: #ffffff08 ;
   }
   to {
-    background-color: #3a3a3a;
+    background-color: #3a3a3aa3;
     
   }
 }
